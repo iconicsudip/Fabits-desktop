@@ -9,15 +9,15 @@ interface Props {
 }
 
 
-export default function Plan({plan}:Props) {
+export default function Plan({ plan }: Props) {
     return (
         <div className={styles.plan}>
             <div className={styles.plan_header}>
-                <div className={styles.icon}>
-                    <Link to={MY_LINKEDIN} target="_blank">
+                <Link to={MY_LINKEDIN} target="_blank">
+                    <div className={styles.icon}>
                         <img src={plan.icon} alt={`${plan.name.toLowerCase()}_icon`} />
-                    </Link>
-                </div>
+                    </div>
+                </Link>
                 <div className={styles.arrow}>
                     <Link to={MY_LINKEDIN} target="_blank">
                         <img src={rightArrowIcon} alt="right-arrow" />
