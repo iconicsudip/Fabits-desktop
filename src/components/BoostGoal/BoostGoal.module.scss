@@ -1,0 +1,20 @@
+.button_goal {
+    display: flex;
+    flex-direction: column;
+    gap: var(--sp-xl);
+
+    .boost_wrapper {
+        display: flex;
+        padding: var(--sp-sm);
+        gap: var(--sp-sm);
+        border-radius: var(--radi-lg);
+        background: var(--yellow-lighter);
+        color: var(--yellow-dark);
+        font-weight: 600;
+    }
+
+    .boost_button {
+        display: flex;
+        gap: var(--sp-xs);
+    }
+}

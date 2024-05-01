@@ -1,0 +1,20 @@
+.search_bar{
+        display: flex;
+            padding: var(--sp-xs) var(--sp-lg);
+            border: var(--secondary-border);
+            border-radius: var(--sp-sm);
+            background: #fff;
+            padding-left: var(--sp-md);
+            gap: var(--sp-xs);
+            max-width: 246px;
+            width: 100%;
+            flex: 1;
+            input{
+                border: none;
+                outline: none;
+                width: 100%;
+            }
+            &.mobile{
+                max-width: 100%;
+            }
+}

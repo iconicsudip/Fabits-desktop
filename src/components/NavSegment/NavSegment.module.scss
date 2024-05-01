@@ -1,0 +1,11 @@
+.nav_segment{
+    display: flex;
+    flex-direction: column;
+    gap: var(--sp-sm);
+    .segment_heading{
+        text-transform: uppercase;
+        font-size: var(--sp-md);
+        color: var(--heading-color);
+        font-weight: 500;
+    }
+}

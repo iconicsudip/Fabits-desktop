@@ -1,0 +1,14 @@
+.goal_overview{
+    border-top: var(--secondary-border);
+    padding-top: var(--sp-lg);
+    display: flex;
+        flex-direction: column;
+        gap: var(--sp-md);
+    .track{
+        font-weight: 500;
+        color: var(--secondary-color);
+        .track_color{
+            font-weight: 500;
+        }
+    }
+}

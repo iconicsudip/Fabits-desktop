@@ -1,0 +1,31 @@
+.progress_bar{
+    height: var(--sp-sm);
+    border-radius: 100px;
+    overflow: hidden;
+    position: relative;
+    .current_progress{
+        z-index: 1;
+    }
+    .current_progress, .target_progress{
+        height: 100%;
+        transition: width 0.3s;
+            position: absolute;
+                top: 0;
+                left: 0;
+    }
+    .progress_circle_wrapper{
+        position: relative;
+        height: 100%;
+        .progress_circle{
+            width: 20px;
+            height: 20px;
+                border: 6px solid white;
+                    z-index: 2;
+                    position: absolute;
+                    top: 50%;
+                    right: 0;
+                    transform: translate(50%, -50%);
+                    border-radius: 50%;
+        }
+    }
+}

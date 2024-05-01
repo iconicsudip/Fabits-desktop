@@ -1,0 +1,68 @@
+.plan {
+    display: flex;
+    flex-direction: column;
+    gap: var(--sp-lg);
+    width: 160px;
+    height: 160px;
+    padding: var(--sp-lg);
+    border-radius: calc(var(--radi-lg)* 2);
+    background-color: #fff;
+    cursor: pointer;
+    border: 1px solid transparent;
+
+    .plan_header {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+
+        .arrow {
+            display: none;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            padding: var(--sp-xs);
+            border: 1px solid transparent;
+            cursor: pointer;
+            transition: background-color 0.3s, border 0.3s;
+
+            &:hover {
+                background-color: var(--secondary-bg-color);
+                border: var(--primary-border);
+            }
+        }
+    }
+
+    .icon {
+        width: calc(var(--sp-xl)* 2);
+        height: calc(var(--sp-xl)* 2);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: var(--primary);
+        border-radius: 50%;
+        cursor: pointer;
+    }
+
+    .info {
+        display: flex;
+        flex-direction: column;
+
+        .name {
+            color: var(--primary-color);
+            font-weight: 600;
+        }
+
+        .desc {
+            color: var(--secondary-color);
+            font-size: var(--sp-md);
+        }
+    }
+
+    &:hover {
+        box-shadow: var(--box-shadow);
+        border: var(--secondary-border);
+        .arrow{
+            display: flex;
+        }
+    }
+}
