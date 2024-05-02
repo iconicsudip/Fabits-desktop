@@ -1,30 +1,38 @@
-# React + TypeScript + Vite
+## Fabits Dashboard Web Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project involves implementing a plan page with two main sections: a vertical carousel for adding plans and a card section for displaying existing plans. The tasks include designing the page layout, implementing carousel functionality with navigation buttons and keyboard support, and creating individual cards with hover effects.
 
-Currently, two official plugins are available:
+Deployed url - https://fabits.netlify.app
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Technologies Used
+- TypeScript
+- React.js
+- SCSS module for styling
+  
+### Getting Started
+1. Clone this repository.
+2. Create a `.env` file and use below variables
+    ```
+    VITE_APP_MY_LINKEDIN = 
+    ```
+3. Install dependencies:
+    ```bash
+    npm install
+    ```
+4. Run the application:
+    ```bash
+    npm run dev
+    ```
+6. Navigate to `localhost:5173` in your browser to access the application.
 
-## Expanding the ESLint configuration
+### Functionality
+- Vertical Carousel:
+  - Implemented a vertical carousel within the horizontal section to display plan icons. The carousel smoothly transitions when navigating using the left and right buttons or keyboard arrows. It holds a total of 14 plan icons and supports keyboard navigation for enhanced user experience.
+- Card Section:
+  - Designed 5 individual cards to represent existing plans, each with hover functionality and a drop shadow effect to provide visual feedback to users. Clicking on any card redirecting my linkedin page.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### Contact details
+- Name - Sudip Das
+- Phone number - 9073383828
+- Email - das366966@gmail.com
+- Linkedin - https://linkedin.com/in/sudipdas80
