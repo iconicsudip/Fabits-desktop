@@ -7,7 +7,7 @@ const initialState = {
     selectedNavName: "Home",
 };
 export const sidebarSlice = createSlice({
-    name: "header",
+    name: "sidebar",
     initialState: initialState,
     reducers: {
         setSidebar: (state, action) => {
