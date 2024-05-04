@@ -11,19 +11,15 @@ Deployed url - https://fabits.netlify.app
   
 ### Getting Started
 1. Clone this repository.
-2. Create a `.env` file and use below variables
-    ```
-    VITE_APP_MY_LINKEDIN = 
-    ```
-3. Install dependencies:
+2. Install dependencies:
     ```bash
     npm install
     ```
-4. Run the application:
+3. Run the application:
     ```bash
     npm run dev
     ```
-6. Navigate to `localhost:5173` in your browser to access the application.
+4. Navigate to `localhost:5173` in your browser to access the application.
 
 ### Functionality
 - Vertical Carousel:

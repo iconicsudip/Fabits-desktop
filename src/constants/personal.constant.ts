@@ -1,1 +1,1 @@
-export const MY_LINKEDIN = import.meta.env.VITE_APP_MY_LINKEDIN as string
+export const MY_LINKEDIN = 'https://www.linkedin.com/in/sudipdas80' as string
